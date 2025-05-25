@@ -1,7 +1,8 @@
-<script setup lang="ts"></script>
+<script lang="ts" setup>
+import NavbarCpnt from "@/components/NavbarCpnt.vue";
+</script>
 
 <template>
-  <div>
-    <h1>DIP-dive</h1>
-  </div>
+  <NavbarCpnt />
+  <router-view />
 </template>

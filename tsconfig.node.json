@@ -12,6 +12,14 @@
     "verbatimModuleSyntax": true,
     "moduleDetection": "force",
     "noEmit": true,
+    /* added */
+    "isolatedModules": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"],
+      "~tests/*": ["tests/*"]
+    },
+    /* end added */
 
     /* Linting */
     "strict": true,
