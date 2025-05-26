@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-import NavbarCpnt from "@/components/NavbarCpnt.vue";
+import NavbarCpnt from '@/Components/NavbarCpnt.vue';
 </script>
 
 <template>
