@@ -13,29 +13,29 @@
 
 <style lang="scss" scoped>
 .sidebar {
-  box-sizing: border-box;
-  padding: $xxl $m;
   width: $sidebar-width;
   height: $sidebar-height;
-  background-color: color('primary', 70);
+  padding: $xxl $m;
   border-radius: 0 $s $s 0;
+  box-sizing: border-box;
+  background-color: color('primary', 70);
 
   &__nav {
-    padding: 0;
-    list-style-type: none;
     display: flex;
     flex-direction: column;
     align-items: start;
+    padding: 0;
+    list-style-type: none;
     gap: $xl;
   }
 
   &__item {
-    box-sizing: border-box;
     display: flex;
-    gap: $xs;
     align-items: end;
+    box-sizing: border-box;
     font-size: $xl;
     cursor: pointer;
+    gap: $xs;
 
     &:hover {
       filter: opacity(55%);

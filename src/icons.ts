@@ -14,5 +14,5 @@ export {
   RiShipLine,
   RiMailLine,
   RiUserLine,
-  RiHome2Line
+  RiHome2Line,
 } from 'oh-vue-icons/icons/ri/index.js';

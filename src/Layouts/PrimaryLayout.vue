@@ -8,16 +8,16 @@
 
 <style lang="scss" scoped>
 .wrapper {
-  width: 100%;
   display: flex;
   justify-content: start;
+  width: 100%;
 
   .content {
     flex: 1;
     max-width: $content-width;
     padding: $s;
-    background-color: color('primary', 90);
     border-radius: $s;
+    background-color: color('primary', 90);
   }
 }
 </style>

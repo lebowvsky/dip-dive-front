@@ -16,5 +16,6 @@
 
 @function color($color: 'primary', $tone: 50) {
   $hsl: map.get($palette, $color);
+
   @return adjust-color-lightness($hsl, $tone * 1%);
 }

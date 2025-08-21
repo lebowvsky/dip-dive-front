@@ -11,13 +11,13 @@ import AvatarCpnt from './AvatarCpnt.vue';
 
 <style lang="scss" scoped>
 .header {
-  box-sizing: border-box;
-  width: 100%;
-  height: $navbar-height;
-  background-color: color('primary', 50);
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width: 100%;
+  height: $navbar-height;
   padding: $l $xxl $l $l;
+  box-sizing: border-box;
+  background-color: color('primary', 50);
 }
 </style>

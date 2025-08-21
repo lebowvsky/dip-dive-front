@@ -18,9 +18,16 @@ body {
 }
 
 .main {
-  box-sizing: border-box;
-  padding: $main-padding;
   display: flex;
+  padding: $main-padding;
+  box-sizing: border-box;
   gap: $s;
+}
+
+.test {
+  position: absolute;
+  display: flex;
+  margin: 5px;
+  background: red;
 }
 </style>
